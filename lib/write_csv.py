@@ -11,9 +11,9 @@ def trycast(x):
             return x
 
 def write_csv():
-	cols = ['product_productid', 'review_userid', 'review_helpfulness', 'review_score', 'review_summary', 'review_text']
+	cols = ['product_productid', 'review_userid','review_profileName', 'review_helpfulness', 'review_score', 'review_time', 'review_summary', 'review_text']
 
-	f = open('moviescsv.csv', 'wb')
+	f = open('movies.csv', 'wb')
 	w = csv.writer(f)
 	w.writerow(cols)
 
