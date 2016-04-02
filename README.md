@@ -3,6 +3,8 @@
 
 Term: Spring 2016
 
+Team member: Zac Wu, Max, Qiner Shi, Tianhong Ding, Chi Li
+
 In this project, we will explore relational data where the data were collected to have information on a set of individuals and on their relations. Part of the big data hype has been fueled by the availability of the huge amount of online human generated information on social networks, individual rating/preferences on products, opinions and views shared via social media (such as facebook, twitter, etc). Topics in this area include
 
 - Collective filtering
