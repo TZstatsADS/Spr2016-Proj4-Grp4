@@ -3,8 +3,7 @@ import pandas as pd
 
 
 # possible column values
-cols = ['product_productid', 'review_userid', 'review_helpfulness', 'review_score', 'review_summary', 'review_text']
-
+cols = ['product_productid', 'review_userid', 'review_helpfulness', 'review_score', 'review_time', 'review_summary', 'review_text']
 
 def read_csv(fn):
 	'''
