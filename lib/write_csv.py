@@ -1,12 +1,16 @@
 import csv
+import time
+
+def print_time_elapsed(start_time, name):
+	print "-----   " + str(time.time() - start_time)[:5] + " seconds to run " + name + "   -----"
 
 
 def trycast(x):
     try:
-        return float(x)
+        return int(x)
     except:
         try:
-            return int(x)
+            return float(x)
         except:
             return x
 
@@ -30,7 +34,12 @@ def write_csv():
 				key, value = tuple([line[:idx], line[idx+1:]])
 				key = key.strip().replace("/", "_").lower()
 				value = value.strip()
-				doc[key] = trycast(value)
+				value = trycast(value)
+				if key == 'review_time':
+					value = time.strftime('%m/%d/%Y', time.gmtime(value))
+				doc[key] = value
 		f.close()
 
+start_time = time.time()
 write_csv()
+print_time_elapsed(start_time, 'load')
