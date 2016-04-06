@@ -1,0 +1,12 @@
+#retrive movie title
+library(rvest)
+library(RCurl)
+library(XML)
+for (i in 1:length(movie$product_productid)){
+  movie$ASIN.inq[i]<-movie$product_productid[i]
+  movie<- read_html(paste("http://www.amazon.com/exec/obidos/ASIN/",movie$ASIN.inq[i], sep=""))
+  movie$movie[i]<-html_text(html_node(movie,"title"))
+  movie$title[i]<-strsplit(as.character(movie$movie[i]),':')[[1]][2]
+  movie$title[i]<-strsplit(as.character(movie$movie[i]),' \\[')[[1]][1]
+  movie$title[i]<-strsplit(as.character(movie$movie[i]),' \\(')[[1]][1]
+}
