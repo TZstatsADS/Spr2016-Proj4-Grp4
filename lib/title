@@ -5,6 +5,7 @@ library(omdbapi)
 library(rvest)
 library(RCurl)
 library(XML)
+
 for (i in 1:length(movie$product_productid)){
   movie$ASIN.inq[i]<-movie$product_productid[i]
   movie<- read_html(paste("http://www.amazon.com/exec/obidos/ASIN/",movie$ASIN.inq[i], sep=""))
@@ -12,5 +13,10 @@ for (i in 1:length(movie$product_productid)){
   movie$title[i]<-strsplit(as.character(movie$movie[i]),':')[[1]][2]
   movie$title[i]<-strsplit(as.character(movie$movie[i]),' \\[')[[1]][1]
   movie$title[i]<-strsplit(as.character(movie$movie[i]),' \\(')[[1]][1]
+}
+
+#retrive movie genre
+for (i in 1:length(movie$product_productid)) {
+  movie$genre[i]<-find_by_title(movie$title[i])$Genre
 }
 
