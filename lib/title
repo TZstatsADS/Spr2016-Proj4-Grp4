@@ -1,4 +1,6 @@
 #retrive movie title
+library(devtools)
+library(omdbapi)
 library(rvest)
 library(RCurl)
 library(XML)
