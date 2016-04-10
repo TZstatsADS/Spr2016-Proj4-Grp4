@@ -20,6 +20,50 @@ networkData <- data.frame(src, target)
 
 # Plot
 simpleNetwork(networkData)
+##### FORCE network
+
+library('Matrix')
+A <- spMatrix(nrow=length(unique(samples$product_productid)),
+              ncol=length(unique(samples$review_userid)),
+              i = as.numeric(factor(samples$product_productid)),
+              j = as.numeric(factor(samples$review_userid)),
+              x = rep(1, length(as.numeric(samples$product_productid))) )
+row.names(A) <- levels(factor(samples$product_productid))
+colnames(A) <- levels(factor(samples$review_userid))
+Arow <- tcrossprod(A)
+
+nodes <- cbind(movie.matrix,size=rep(10,nrow(movie.matrix)))
+
+source_data = vector()
+for(i in 1:nrow(A)){
+        cur = rep(i,150)
+        source_data = c(source_data,cur)
+}
+
+target_data = vector()
+for(i in 1:nrow(A)){
+        cur = seq(1:150)
+        target_data = c(target_data,cur)
+}
+
+
+links <- cbind(source = source_data-1,target = target_data-1,value=as.vector(Arow))
+
+repeated <- seq(1,22500,150)
+x = seq(1:150)
+repeated <-repeated + x -1
+
+links <- links[-repeated,]
+index <- (links[,3] != 0 )
+links <- links[index,]
+
+links <- data.frame(links)
+nodes <- data.frame(nodes)
+
+forceNetwork(Links = links, Nodes = nodes,
+             Source = "source", Target = "target",
+             Value = "value", NodeID = "productID",
+             Group = "count", opacity = 0.8)
 
 
 #igraph
@@ -31,7 +75,8 @@ A <- spMatrix(nrow=length(unique(samples$product_productid)),
               x = rep(1, length(as.numeric(samples$product_productid))) )
 row.names(A) <- levels(factor(samples$product_productid))
 colnames(A) <- levels(factor(samples$review_userid))
-A<-A*10
+A
+
 
 A_igraph <- graph.incidence(A, mode=c('all') )
 i96 <- delete.vertices(A_igraph, V(A_igraph)[ degree(A_igraph)==0 ])
