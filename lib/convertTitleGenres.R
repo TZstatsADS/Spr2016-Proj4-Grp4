@@ -22,6 +22,7 @@ convertTitleGenre <- function(ASIN.inq){
         movie1.title=strsplit(movie1.title, ": ")[[1]][2]
         movie1.title=strsplit(movie1.title, " \\[")[[1]][1]
         movie1.title=strsplit(movie1.title, " \\(")[[1]][1]
+        movie1.title=strsplit(movie1.title, " \\-")[[1]][1]
         omdb.entry=search_by_title(movie1.title)
         infos<-find_by_id(omdb.entry$imdbID[1], include_tomatoes=T)
         return(list(Title = infos[[1]], Genre=infos$Genre))
