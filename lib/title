@@ -6,17 +6,25 @@ library(rvest)
 library(RCurl)
 library(XML)
 
-for (i in 1:length(movie$product_productid)){
-  movie$ASIN.inq[i]<-movie$product_productid[i]
-  movie<- read_html(paste("http://www.amazon.com/exec/obidos/ASIN/",movie$ASIN.inq[i], sep=""))
-  movie$movie[i]<-html_text(html_node(movie,"title"))
-  movie$title[i]<-strsplit(as.character(movie$movie[i]),':')[[1]][2]
-  movie$title[i]<-strsplit(as.character(movie$movie[i]),' \\[')[[1]][1]
-  movie$title[i]<-strsplit(as.character(movie$movie[i]),' \\(')[[1]][1]
-}
-
-#retrive movie genre
-for (i in 1:length(movie$product_productid)) {
-  movie$genre[i]<-find_by_title(movie$title[i])$Genre
+for (i in 1:length(movie219$ids)){
+  tryCatch({
+    movie1<- read_html(paste("http://www.amazon.com/exec/obidos/ASIN/",movie219$ids[i], sep=""))
+    movie1.title=
+      movie1 %>% 
+      html_node("title") %>%
+      html_text()
+    movie1.title<-strsplit(movie1.title, ": ")[[1]][2]
+    movie1.title<-strsplit(movie1.title, " \\[")[[1]][1]
+    movie1.title<-strsplit(movie1.title, " \\(")[[1]][1]
+    movie1.title<-strsplit(movie1.title, " \\-")[[1]][1]
+    #movie1.title<-gsub(" -",":",movie1.title)
+    omdb.entry<-search_by_title(movie1.title)
+    infos<-find_by_id(omdb.entry$imdbID[1], include_tomatoes=T)
+    movie219$title[i]<-infos$Title
+    movie219$genre[i]<-infos$Genre
+  },error = function(err){
+    movie219$title[i]<-NA
+    movie219$genre[i]<-NA
+ })
 }
 
