@@ -46,6 +46,10 @@ The first thing that come into my mind is that we can produce a list of most pop
 
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/stock%20tend%20tom.png?token=AP_dxHoxhhn3SllPLmHJttPW-Rveyr1Gks5XF5u8wA%3D%3D)
 
+Trend explian
+
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/1997%20trend%20plot%201.png?token=AP_dxKNfuuYdjw8EZFTRiM3K-LZ7jE56ks5XF508wA%3D%3D) ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/thomas%2006%20trend.png?token=AP_dxFO9B7A8RkFb-zvOskD_2VrtgAxBks5XF52JwA%3D%3D)
+
 
 ## 2.  Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
 
