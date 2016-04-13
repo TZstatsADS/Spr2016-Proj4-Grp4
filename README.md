@@ -1,4 +1,4 @@
-# Project 4 Are You a Decent Reviewers?
+# Project 4 How to become a Decent Amazon Moives Reviewers?
 ### Mining Amazon Movies Reviews
 
 Term: Spring 2016
