@@ -11,8 +11,11 @@ Team member: Zac Wu, Max, Qiner Shi, Tianhong Ding, Chi Li
 ```
 
 1. Data Analysis
+
 2. Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
+
 3. Sentiment Analysis
+
 4. Network Analysis
 
 ```
@@ -37,7 +40,6 @@ To begin with, we need to explore the dataset, before we can dig into deeeper an
 The first thing that come into my mind is that we can produce a list of most popular movies for each year, based on the numbers of reviews. Not only this list can bring us back to our childhoods, when we once again face those familliar names, but also show us the growth of one of the most successful companies over the world. 
 
 
-
 - **Review numbers of the most popular movies each year**
 
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/tom%20trnd%201.png?token=AP_dxNHl5qkvcO9urWVA7KfSsddPaDGQks5XF5xrwA%3D%3D)
@@ -46,9 +48,12 @@ The first thing that come into my mind is that we can produce a list of most pop
 
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/stock%20tend%20tom.png?token=AP_dxHoxhhn3SllPLmHJttPW-Rveyr1Gks5XF5u8wA%3D%3D)
 
-Trend explian
+### Patterns of review numbers over 15 years
 
-![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/1997%20trend%20plot%201.png?token=AP_dxKNfuuYdjw8EZFTRiM3K-LZ7jE56ks5XF508wA%3D%3D) ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/thomas%2006%20trend.png?token=AP_dxFO9B7A8RkFb-zvOskD_2VrtgAxBks5XF52JwA%3D%3D)
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/1997%20trend%20plot%201.png?token=AP_dxKNfuuYdjw8EZFTRiM3K-LZ7jE56ks5XF508wA%3D%3D) 
+
+
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/thomas%2006%20trend.png?token=AP_dxFO9B7A8RkFb-zvOskD_2VrtgAxBks5XF52JwA%3D%3D)
 
 
 ## 2.  Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
