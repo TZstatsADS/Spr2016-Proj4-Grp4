@@ -11,9 +11,9 @@ Team member: Zac Ziyue Wu, Max Mattioli, Qiner Shi, Tianhong Ding, Chi Li
 ```
 
 1. Generally Speaking
-2. How users give stars
-3. How do they comment
-4. How most active 100 react with each other? 
+2. How to stars movies
+3. How to comment
+4. How to interact with other reviewers? 
 
 ```
 
@@ -47,7 +47,7 @@ We decided to focus on:
 
 
 
-## 2.  How They Star Movies?
+## 2.  How to Star Movies?
 
 
 After we have an understanding of the characteristics of the dataset, the following three topics attracts our attention: Relationship between Helpfulness and Scores, Sentimental Analysis, and Network Analysis. 
@@ -91,7 +91,7 @@ movies, this indicates we have more good movies that are not popular than bad mo
 
 So be brave and happy to watch those movies you never heard of! Because it is more likely that you are watching a good movie instead of a bad one.
 
-## 3. How Do They Comment? 
+## 3. How to Comment? 
 
 - read: counts of reviewers who react to the helpfulness evaluation. 
 - helpful: scores of helpfulness
@@ -137,7 +137,7 @@ As for the helpfulness, people tends to focus more on the brief reviews.
 
 
 
-## 4. How most active 100 react with each other? 
+## 4. How interact with other reviewers? 
 ####Network Analysis of top 100 users
 
 Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. Thus, we applied a network analysis to the top 100 active reviewer in Amazon.
