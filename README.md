@@ -45,6 +45,11 @@ The first thing that come into my mind is that we can produce a list of most pop
 
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/thomas%2006%20trend.png?token=AP_dxFO9B7A8RkFb-zvOskD_2VrtgAxBks5XF52JwA%3D%3D)
 
+We decided to focus on:
+- data after 2007
+- especially top 100 most active users
+
+
 
 ## 2.  How They Star Movies?
 
