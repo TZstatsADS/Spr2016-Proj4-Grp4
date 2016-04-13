@@ -9,17 +9,22 @@ In this project, we mined the amazon movie scores and reviews to explore some to
 
 ###Contribution Statement
 Feel free to detail your own contributions
+
 Zac Ziyue Wu: 
 1.Net-work analysis.  
 2.Presentation
+
 Max Mattioli: 
 1.Data preparation.
+
 Qiner Shi: 
 1.Title and genre match and improve the movie title mining. 
 2.The third part of the project, mainly about review text mining (3. How to Comment)
+
 Tianhong Ding: 
 1.Review numbers of the most popular movies each year.
 2.Sketch of markdown file.
+
 Chi Li : 
 1.The second part of the project.(2.How to Star Movies?
 
