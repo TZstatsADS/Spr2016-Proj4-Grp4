@@ -4,6 +4,26 @@
 Term: Spring 2016
 
 Team member: Zac Ziyue Wu, Max Mattioli, Qiner Shi, Tianhong Ding, Chi Li
+###Summary
+In this project, we mined the amazon movie scores and reviews to explore some topics like trying to find out movies with high scores but few reviewers, figuring out the relationship between review scores and the polarity of the review, etc. We also explored the reviewer network of which we can have a glance at the relationship about who might share a similar movie taste.
+
+###Contribution Statement
+Feel free to detail your own contributions
+Zac Ziyue Wu: 
+1.Net-work analysis.  
+2.Presentation
+Max Mattioli: 
+1.Data preparation.
+Qiner Shi: 
+1.Title and genre match and improve the movie title mining. 
+2.The third part of the project, mainly about review text mining (3. How to Comment)
+Tianhong Ding: 
+1.Review numbers of the most popular movies each year.
+2.Sketch of markdown file.
+Chi Li : 
+1.The second part of the project.(2.How to Star Movies?
+
+All team members approve our work presented in our GitHub repository including this contribution statement.
 
 
 ##Contents
