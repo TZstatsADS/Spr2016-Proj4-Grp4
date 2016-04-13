@@ -1,4 +1,4 @@
-#How to become a Decent Moives Reviewers?
+#How to become a Decent Moives Reviewer?
 ### Mining Amazon Movies Reviews
 
 Term: Spring 2016
@@ -90,6 +90,7 @@ This figure looks quite similar as the general distribution, but there is more p
 movies, this indicates we have more good movies that are not popular than bad movies.
 
 So be brave and happy to watch those movies you never heard of! Because it is more likely that you are watching a good movie instead of a bad one.
+
 
 ## 3. How to Comment? 
 
