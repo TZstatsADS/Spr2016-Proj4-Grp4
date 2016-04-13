@@ -63,18 +63,18 @@ We first compute the polarity of the review summery. Generally the review summar
   
 ###### Will the polarity affect the helpfulness?
 
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/helpful~polarity-general.png)
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/helpful~polarity-general.png)
   
 ###### Will the extreme polarity attract people to read?
 
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~polarity-general.png)
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~polarity-general.png)
 
 
 ###### Polarity can be inaccurate
 
 Unfortunately, the built-in package for polarity computing is not accurate.
 
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/polarity-not-accurate.png)
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/polarity-not-accurate.png)
 
 #### Review Text-Words
 
@@ -82,15 +82,15 @@ Here we want to explore whether the length of the text will add more value to it
  
 ######  The longer, the better?
 
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words-general.png)
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words-general.png)
 
 It seems not’s the case.
 
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words.png)
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words.png)
 
 As for the helpfulness, people tends to focus more on the brief reviews.
 
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/helpful~words.png)
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/helpful~words.png)
 
 
 
