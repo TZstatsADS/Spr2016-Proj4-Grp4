@@ -38,13 +38,13 @@ The first thing that come into my mind is that we can produce a list of most pop
 
 
 
-- Review numbers of the most popular movies each year
+- **Review numbers of the most popular movies each year**
 
-![](project4-team-4/figs/tom trned 1.png)
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/tom%20trnd%201.png?token=AP_dxNHl5qkvcO9urWVA7KfSsddPaDGQks5XF5xrwA%3D%3D)
 
-- Stock price of Amazon from 1997 to 2011
+- **Stock price of Amazon from 1997 to 2011**
 
-![](project4-team-4/figs/stock tend tom.png)
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/stock%20tend%20tom.png?token=AP_dxHoxhhn3SllPLmHJttPW-Rveyr1Gks5XF5u8wA%3D%3D)
 
 
 ## 2.  Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
