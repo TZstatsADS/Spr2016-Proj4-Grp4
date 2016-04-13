@@ -108,6 +108,8 @@ We first compute the polarity of the review summery. Generally the review summar
 ###### Will the polarity affect the helpfulness?
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/helpful~polarity-general.png)
+
+From the plot we can see people are generally rational because they tends to think those polarity go along with the moview score are usful. Other with they probably think it's not a valuable review.
   
 ###### Will the extreme polarity attract people to read?
 
@@ -116,7 +118,7 @@ We first compute the polarity of the review summery. Generally the review summar
 
 ###### Polarity can be inaccurate
 
-Unfortunately, the built-in package for polarity computing is not accurate.
+Unfortunately, the built-in package for polarity computing is not so accurate.
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/polarity-not-accurate.png)
 
@@ -128,7 +130,7 @@ Here we want to explore whether the length of the text will add more value to it
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words-general.png)
 
-It seems not’s the case.
+It's seems not the case.
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words.png)
 
