@@ -10,22 +10,12 @@ Team member: Zac Ziyue Wu, Max Mattioli, Qiner Shi, Tianhong Ding, Chi Li
 
 ```
 
-1. Data Analysis
-2. Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
-3. Review Analysis
-4. Network Analysis
+1. Generally Speaking
+2. How users give stars
+3. How do they comment
+4. How most active 100 react with each other? 
 
 ```
-
-
-In this projects, we are interested in the following topics:
-
-
-- Statistical information about the dataset
-- Relationship between Helpfulness and Scores
-- Review Analysis
-- Network Analysis
-
 
 
 ## 1. Generally Speaking
