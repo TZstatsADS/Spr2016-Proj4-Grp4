@@ -36,11 +36,26 @@ To begin with, we need to explore the dataset, before we can dig into deeeper an
 
 The first thing that come into my mind is that we can produce a list of most popular movies for each year, based on the numbers of reviews. Not only this list can bring us back to our childhoods, when we once again face those familliar names, but also show us the growth of one of the most successful companies over the world. 
 
-![alt text](project4-team-4/figs/Harry_Potter_and_the_Chamber_of_Secrets_movie.jpg)
+
+- [**2002 Crouching Tiger, Hidden Dragon**](http://static.pulse.ng/img/incoming/origs4456854/3921669312-w408-h960/Crouching-Tiger-Hidden-Dragon-Poster-martialmoviejunkie.jpg)
+
+![](http://static.pulse.ng/img/incoming/origs4456854/3921669312-w408-h960/Crouching-Tiger-Hidden-Dragon-Poster-martialmoviejunkie.jpg)
+
+- [**2002 Star Trek**](http://img.watchitvideos.net/2015/10/Star-Trek-Nemesis-2002.jpg)
+
+![](http://img.watchitvideos.net/2015/10/Star-Trek-Nemesis-2002.jpg)
+
+- [**2002  Harry Potter and the Chamber of Secrets**](https://upload.wikimedia.org/wikipedia/en/c/c0/Harry_Potter_and_the_Chamber_of_Secrets_movie.jpg)
+
+![](https://upload.wikimedia.org/wikipedia/en/c/c0/Harry_Potter_and_the_Chamber_of_Secrets_movie.jpg)
+
+- [**2003  The Matrix Revolutions**](https://upload.wikimedia.org/wikipedia/en/3/34/Matrix_revolutions_ver7.jpg)
+
+![](https://upload.wikimedia.org/wikipedia/en/3/34/Matrix_revolutions_ver7.jpg)
 
 
 
-pp:film posters
+
 pp:trend map
 pp:stock price
 
