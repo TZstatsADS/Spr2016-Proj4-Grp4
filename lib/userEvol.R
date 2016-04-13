@@ -9,7 +9,6 @@ samples <- samples[,-3]
 # Plot
 #simpleNetwork(networkData)
 ##### FORCE network
-
 generate_net <- function(samples,userInfo){
         names(samples) <- c("product_productid","review_userid")
 
@@ -116,7 +115,6 @@ time_slot <- c(1180656000,1199145600,1212278400,1230768000,
                1306886400,1325376000,1338508800)
 
 time_plot<-function(data,time,userID,userInfo){
-        
         year1 <- data[data[,3] <= as.numeric(time),]
         data_t1 <- year1[which(year1[,2] %in% userID ),-3]
         net<-generate_net(data_t1,userInfo)
@@ -135,14 +133,14 @@ net9 <- time_plot(data,time_slot[9],userID,userInfo)
 net10 <- time_plot(data,time_slot[10],userID,userInfo)
 net11 <- time_plot(data,time_slot[11],userID,userInfo)
 
+library(igraph)
 lay <- layout.fruchterman.reingold(net11)
 xlim <- range(lay[,1])
 ylim <- range(lay[,2])
 
 
 j_s <- function(a,net,xlim,ylim,lay){
-        
-        pdf(a)
+        jpeg(a, width = 4, height = 4, units = 'in', res = 400)
         plot.igraph(net, layout = lay, 
                     xlim = xlim, ylim = ylim, rescale = FALSE)
         dev.off()
@@ -151,14 +149,24 @@ j_s <- function(a,net,xlim,ylim,lay){
 j_s("net1.pdf",net1,xlim,ylim,lay)
 j_s("net2.pdf",net2,xlim,ylim,lay)
 j_s("net3.pdf",net3,xlim,ylim,lay)
-j_s("net4.pdf",net4)
-j_s("net5.pdf",net5)
-j_s("net6.pdf",net6)
-j_s("net7.pdf",net7)
-j_s("net8.pdf",net8)
-j_s("net9.pdf",net9)
-j_s("net10.pdf",net10)
-j_s("net11.pdf",net11)
+j_s("net4.pdf",net4,xlim,ylim,lay)
+j_s("net5.pdf",net5,xlim,ylim,lay)
+j_s("net6.pdf",net6,xlim,ylim,lay)
+j_s("net7.pdf",net7,xlim,ylim,lay)
+j_s("net8.pdf",net8,xlim,ylim,lay)
+j_s("net9.pdf",net9,xlim,ylim,lay)
+j_s("net10.pdf",net10,xlim,ylim,lay)
+j_s("net11.jpeg",net11,xlim,ylim,lay)
+
+
+time_slot2 <- seq(1167609600,1338508800,2592000)
+time_slot2 <- time_slot2[-1]
+n <- length(time_slot2)-1
+
+for(i in 1:n){
+        net <- time_plot(data,time_slot2[i],userID,userInfo)
+        j_s(paste("net",i,".jpeg",sep=""),net,xlim,ylim,lay)
+}
 
 
 
