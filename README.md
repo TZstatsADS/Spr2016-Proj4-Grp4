@@ -1,4 +1,4 @@
-#How to become a Decent Amazon Moives Reviewers?
+#How to become a Decent Moives Reviewers?
 ### Mining Amazon Movies Reviews
 
 Term: Spring 2016
@@ -127,7 +127,7 @@ Here we want to explore whether the length of the text will add more value to it
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words-general.png)
 
-It seems not’s the case.
+It's seems not the case.
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words.png)
 
