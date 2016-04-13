@@ -15,7 +15,7 @@ Zac Ziyue Wu:
 2.Presentation
 
 Max Mattioli: 
-1.Data preparation.
+1.Data preparation, exploration of reviewers in other categories besides movies.
 
 Qiner Shi: 
 1.Title and genre match and improve the movie title mining. 
