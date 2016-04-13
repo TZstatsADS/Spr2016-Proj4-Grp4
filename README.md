@@ -1,4 +1,4 @@
-# Project 4 How to become a Decent Amazon Moives Reviewers?
+#How to become a Decent Amazon Moives Reviewers?
 ### Mining Amazon Movies Reviews
 
 Term: Spring 2016
@@ -19,10 +19,6 @@ Team member: Zac Ziyue Wu, Max Mattioli, Qiner Shi, Tianhong Ding, Chi Li
 
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/movie_profile.png)
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/Review.png)
-
-
-
-
 
 
 ## 1. Generally Speaking
