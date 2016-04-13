@@ -47,10 +47,13 @@ After we have an understanding of the characteristics of the dataset, the follow
 
 Prof. Tian has told us an inspring example, that people tend to give 5-star scores at their first reviews. Besides this, we wonder, is there any relationship between reviews' helpfulness and scores? Many people believe that one is more likely to watch those extreme reviews, since comments such as "good" or "not bad" are never informative to people. We enjoy reading those reviews that provide deep insights or strong emotions, because they satisfy our curiosities as well as intentions to know more about that product. As a result, we may say the five-star and one-star reviews may receive much more "helful" or "unhelpful" clicks than other reviews.
 
-(Li Zhi's findings)
-pp:
-pp:
 
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/Active.png)
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/General.png)
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/avg%20vs%20popularity.png)
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/cred%20vs%20avg.png)
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/highscorenonpopular_distribution.png)
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/rate%7Escore-helpful%26read.pdf)
 
 ## 3. Sentiment Analysis
 
