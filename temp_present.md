@@ -64,16 +64,20 @@ pp:
 
 ## 4. Network Analysis
 
+Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. Thus, we applied a network analysis to the top 100 active reviewer in Amazon.
+
+| user   | 100|
+| related movies | 90,000 |
+
+- Nodes: User
+- Nodes size: number of reviews wrote 
+- Links: Commented on the same movie
+- Links width: number of same movie commented 
+
+
 http://gifmaker.me/PlayVideoAnimation.php?folder=20160412196MMVIKjpkaeHBrRW8dpt96&file=output_mNJLhB.mp4
 
-Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. As the dataset is very hugh, we give up the idea of making a graph of all users. But rather, we would produce the graph on the top (x%?) users. (describe the graph and then talk about the findings and meanings.)
 
 
 
-
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
-
-
-
-Please see each subfolder for a README file.
 
