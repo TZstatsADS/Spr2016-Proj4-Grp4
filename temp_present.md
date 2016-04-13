@@ -18,8 +18,8 @@ Team member: Zac Wu, Max, Qiner Shi, Tianhong Ding, Chi Li
 ```
 
 
-
 In this projects, we are interested in the following topics:
+
 
 - Statistical information about the dataset
 - Relationship between Helpfulness and Scores
@@ -30,14 +30,26 @@ In this projects, we are interested in the following topics:
 
 ## 1. Data analysis
 
-To begin with, we need to explore the dataset, before we can dig into deeeper and more interesting points.
 
-The first thing that come into my mind is that we can produce a list of most popular movies for each year, based on the numbers of reviews. Not only this list can bring us back to our childhoods, when we once again face those familliar names, but also show us the growth of one of the most successful companies over the world. 
+To begin with, we need to explore the dataset, before we can dig into deeper and more interesting points.
+
+The first thing that come into my mind is that we can produce a list of most popular movies for each year, based on the numbers of reviews. Not only this list can bring us back to our childhoods, when we once again face those familliar names, but also show us the growth of one of the most successful companies over the world.
 
 
-pp:film posters
-pp:trend map
-pp:stock price
+- **Review numbers of the most popular movies each year**
+
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/tom%20trnd%201.png?token=AP_dxNHl5qkvcO9urWVA7KfSsddPaDGQks5XF5xrwA%3D%3D)
+
+- **Stock price of Amazon from 1997 to 2011**
+
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/stock%20tend%20tom.png?token=AP_dxHoxhhn3SllPLmHJttPW-Rveyr1Gks5XF5u8wA%3D%3D)
+
+### Patterns of review numbers over 15 years
+
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/1997%20trend%20plot%201.png?token=AP_dxKNfuuYdjw8EZFTRiM3K-LZ7jE56ks5XF508wA%3D%3D)
+
+
+![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/thomas%2006%20trend.png?token=AP_dxFO9B7A8RkFb-zvOskD_2VrtgAxBks5XF52JwA%3D%3D)
 
 
 ## 2.  Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
@@ -141,13 +153,16 @@ Social newworks are everywhere. We not only have social networks in the real wor
 we have the following network of the most recent time.
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/evol_GIF/net9.jpg?token=AKN9cRvcAPM2ZEb_oNtLHfSgyl2PdrK3ks5XF5NTwA%3D%3D)
 
-### Evolution by half year
+### Evolution by every 30 days
 
 <a href="http://gifmaker.me/PlayVideoAnimation.php?folder=20160412196MMVIKjpkaeHBrRW8dpt96&file=output_mNJLhB.mp4
-">![every half year](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/evol_GIF/output_24ONjB.gif?token=AKN9cVEh55RQxMsuAHG1et9JP5hETxCnks5XF3VYwA%3D%3D)</a>
+">![every half year](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/evol_GIF/output_3YUqFn.gif)</a>
 
 <a href="http://gifmaker.me/PlayVideoAnimation.php?folder=20160412196MMVIKjpkaeHBrRW8dpt96&file=output_mNJLhB.mp4
 ">Evolution by every 30 days</a>
+
+
+
 
 
 
