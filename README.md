@@ -26,7 +26,8 @@ Tianhong Ding:
 2.Sketch of markdown file.  
 
 Chi Li:  
-1.The second part of the project.(2.How to Star Movies?  
+1.General statistic analysis/data organization
+2.The second part of the project.(2.How to Star Movies?)  
 
 All team members approve our work presented in our GitHub repository including this contribution statement.
 
