@@ -9,7 +9,7 @@ In this project, we mined the amazon movie scores and reviews to explore some to
 
 ###Contribution Statement
 
-Zac Ziyue Wu: 
+Zac Ziyue Wu:  
 1.Net-work analysis.  
 2.Presentation.  
 
