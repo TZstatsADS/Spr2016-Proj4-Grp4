@@ -36,7 +36,7 @@ To begin with, we need to explore the dataset, before we can dig into deeeper an
 
 The first thing that come into my mind is that we can produce a list of most popular movies for each year, based on the numbers of reviews. Not only this list can bring us back to our childhoods, when we once again face those familliar names, but also show us the growth of one of the most successful companies over the world. 
 
-![alt text](project4-team-4/figs/Harry_Potter_and_the_Chamber_of_Secrets_movie.jpg "Logo Title Text 1")
+![alt text](project4-team-4/figs/Harry_Potter_and_the_Chamber_of_Secrets_movie.jpg)
 
 
 
