@@ -10,8 +10,7 @@ we have the following network of the most recent time.
 
 ### Evolution by half year
 
-<a href="http://gifmaker.me/PlayVideoAnimation.php?folder=20160412196MMVIKjpkaeHBrRW8dpt96&file=output_mNJLhB.mp4
-">![every half year](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/evol_GIF/output_24ONjB.gif?token=AKN9cVEh55RQxMsuAHG1et9JP5hETxCnks5XF3VYwA%3D%3D)</a>
+[every half year](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/evol_GIF/output_3YUqFn.gif)
 
 <a href="http://gifmaker.me/PlayVideoAnimation.php?folder=20160412196MMVIKjpkaeHBrRW8dpt96&file=output_mNJLhB.mp4
 ">Evolution by every 30 days</a>
