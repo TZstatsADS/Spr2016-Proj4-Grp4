@@ -12,7 +12,7 @@ Team member: Zac Wu, Max, Qiner Shi, Tianhong Ding, Chi Li
 
 1. Data Analysis
 2. Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
-3. Sentiment Analysis
+3. Review Analysis
 4. Network Analysis
 
 ```
@@ -23,7 +23,7 @@ In this projects, we are interested in the following topics:
 
 - Statistical information about the dataset
 - Relationship between Helpfulness and Scores
-- Sentimental Analysis
+- Review Analysis
 - Network Analysis
 
 
@@ -52,14 +52,37 @@ pp:
 pp:
 
 
-## 3. Sentiment Analysis
+## 3. Review Analysis
 
 
-We have talked quite a lot about data characteristics, so it is reasonalble to walk into the field of sentiments. We want to see how people feel about movies on Amazon. 
-(Qin's findings)
+We have talked quite a lot about data characteristics, so it is reasonalble to walk into the field of movie reviews.
 
-pp:
-pp:
+#### Review Summary-Polarity
+We first compute the polarity of the review summery. Generally the review summary will not contains too much information about polarity (most of them get a polarity of 0) but since we are not able to do the review text due to its large size, we might as well take a look at the summary first. 
+  
+###### Will the polarity affect the helpfulness?
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/ helpful~polarity-general.png)
+  
+###### Will the extreme polarity attract people to read?
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/ read~polarity-general.png)
+
+
+###### Polarity can be inaccurate
+Unfortunately, the built-in package for polarity computing is not accurate.
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/ polarity-not-accurate.png)
+
+#### Review Text-Words
+Here we want to explore whether the length of the text will add more value to itself
+ 
+######  The longer, the better?
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/ read~words-general.png)
+It seems not’s the case.
+
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/ read~words.png)
+
+As for the helpfulness, people tends to focus more on the brief reviews.
+pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/ helpful~words.png)
+
 
 
 ## 4. Network Analysis
