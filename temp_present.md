@@ -1,4 +1,4 @@
-# Project 4 Collective intelligence
+# Project 4 Are you a normal reviewers?
 ### Mining Amazon Movies Reviews
 
 Term: Spring 2016
@@ -40,9 +40,6 @@ The first thing that come into my mind is that we can produce a list of most pop
 
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/tom%20trnd%201.png?token=AP_dxNHl5qkvcO9urWVA7KfSsddPaDGQks5XF5xrwA%3D%3D)
 
-- **Stock price of Amazon from 1997 to 2011**
-
-![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/stock%20tend%20tom.png?token=AP_dxHoxhhn3SllPLmHJttPW-Rveyr1Gks5XF5u8wA%3D%3D)
 
 ### Patterns of review numbers over 15 years
 
@@ -52,7 +49,7 @@ The first thing that come into my mind is that we can produce a list of most pop
 ![](https://raw.githubusercontent.com/TZstatsADS/project4-team-4/master/figs/thomas%2006%20trend.png?token=AP_dxFO9B7A8RkFb-zvOskD_2VrtgAxBks5XF52JwA%3D%3D)
 
 
-## 2.  Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
+## 2.  How user score?
 
 
 After we have an understanding of the characteristics of the dataset, the following three topics attracts our attention: Relationship between Helpfulness and Scores, Sentimental Analysis, and Network Analysis. 
@@ -96,7 +93,11 @@ movies, this indicates we have more good movies that are not popular than bad mo
 
 So be brave and happy to watch those movies you never heard of! Because it is more likely that you are watching a good movie instead of a bad one.
 
-## 3. Review Analysis
+## 3. How Reviewer Behave? 
+
+- read: counts of reviewers who react to the helpfulness evaluation. 
+- helpful: scores of helpfulness
+
 
 
 We have talked quite a lot about data characteristics, so it is reasonalble to walk into the field of movie reviews.
@@ -108,8 +109,6 @@ We first compute the polarity of the review summery. Generally the review summar
 ###### Will the polarity affect the helpfulness?
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/helpful~polarity-general.png)
-
-From the plot we can see people are generally rational because they tends to think those polarity go along with the moview score are usful. Other with they probably think it's not a valuable review.
   
 ###### Will the extreme polarity attract people to read?
 
@@ -118,7 +117,7 @@ From the plot we can see people are generally rational because they tends to thi
 
 ###### Polarity can be inaccurate
 
-Unfortunately, the built-in package for polarity computing is not so accurate.
+Unfortunately, the built-in package for polarity computing is not accurate.
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/polarity-not-accurate.png)
 
@@ -130,7 +129,7 @@ Here we want to explore whether the length of the text will add more value to it
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words-general.png)
 
-It's seems not the case.
+It seems not’s the case.
 
 ![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/read~words.png)
 
@@ -140,7 +139,8 @@ As for the helpfulness, people tends to focus more on the brief reviews.
 
 
 
-## 4. Network Analysis
+## 4. How top users react with each other? 
+####Network Analysis of top 100 users
 
 Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. Thus, we applied a network analysis to the top 100 active reviewer in Amazon.
 
