@@ -47,13 +47,42 @@ After we have an understanding of the characteristics of the dataset, the follow
 
 Prof. Tian has told us an inspring example, that people tend to give 5-star scores at their first reviews. Besides this, we wonder, is there any relationship between reviews' helpfulness and scores? Many people believe that one is more likely to watch those extreme reviews, since comments such as "good" or "not bad" are never informative to people. We enjoy reading those reviews that provide deep insights or strong emotions, because they satisfy our curiosities as well as intentions to know more about that product. As a result, we may say the five-star and one-star reviews may receive much more "helful" or "unhelpful" clicks than other reviews.
 
+In general, the average score distribution looks like this:
 
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/Active.png)
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/General.png)
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/avg%20vs%20popularity.png)
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/cred%20vs%20avg.png)
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/highscorenonpopular_distribution.png)
-pp:![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/rate%7Escore-helpful%26read.pdf)
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/General.png)
+
+This indicates that people tend to rate high scores overall and, as you can see, the number of average score of exactly integers are more likely, and that is because for many movies there is one or two rates are their average tend to be more likely an integer. 
+
+With the 100 active user data we are going to show u later, we found the distribution look like this:
+
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/Active.png)
+
+This one is not quite different from last one, that makes sense, because the 100 active users' behavior should represent the general users' behavior overall. The main difference is that the active users are not that likely to rate a 5 star, they are more critical and tend to give 4 stars rather than a 5 star.
+
+Now we want to know the relationship between average review score and popularity. Intuitively, We assume that the average review score should be high when the popularity goes high. We assume the total read of all reviews of one movie indicates the popularity of that movie
+
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/avg%20vs%20popularity.png)
+
+However, from this picture, we can see that it is not the case. There is more than thirty thousand movies that are rated as 5 star, but they don't have much review and not poplular at all, which we call as high score but not popular movies. And the most popular movie, as you can see in the plot, is the single point right on top of everything. This is a 3.5 score movie. In the mean time, we can also find that as the popularity goes high, it does not indicate the average score of the movies goes high as well. It is actually not that hard to understand, because there are always bad movies that are more popular than some good movies. 
+
+Some may argue that we forgot about the helpfulness. In fact, in this figure below, we considered average score against credibility, by which we calculated helpful number(helpful.v) devided by total number(total.v). 
+
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/cred%20vs%20avg.png)
+
+As we can see, since the plot is more focused on top right corner, we can intepret that there is more movies that have high score and high review credibility overall. If this figure is not that clear, we calculated another plot of average value of helpness and read on each unit of score based on the previous data, which is:
+
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/rate%7Escore-helpful%26read.png)
+
+This indicates that the credibility (helpful devided by read) is going higher when the score goes higher.
+
+Finally, since we are interested in high-score-nonpopular movies, we plotted a figure that shows the overall distribution of that kind of nonpopular movie. We define the high-score-nonpopular movies threshold as credibility > 0.9, and total read count(popularity) < 100. There is more than 60 thousands movies of this kind, out of 250 thousands of movies of the whole data set.
+
+![alt tag](https://github.com/TZstatsADS/project4-team-4/blob/master/figs/highscorenonpopular_distribution.png)
+
+This figure looks quite similar as the general distribution, but there is more proportion of high score movies within these nonpopular
+movies, this indicates we have more good movies that are not popular than bad movies.
+
+So be brave and happy to watch those movies you never heard of! Because it is more likely that you are watching a good movie instead of a bad one.
 
 ## 3. Review Analysis
 
