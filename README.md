@@ -137,7 +137,7 @@ As for the helpfulness, people tends to focus more on the brief reviews.
 
 
 
-## 4. How interact with other reviewers? 
+## 4. How to interact with other reviewers? 
 ####Network Analysis of top 100 users
 
 Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. Thus, we applied a network analysis to the top 100 active reviewer in Amazon.
