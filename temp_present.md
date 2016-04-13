@@ -12,7 +12,7 @@ Team member: Zac Wu, Max, Qiner Shi, Tianhong Ding, Chi Li
 
 1. Data Analysis
 2. Do extreme score reviews more "Helpful" or "Unhelpful" than other reviews?
-3. Sentiment Analysis
+3. Review Analysis
 4. Network Analysis
 
 ```
@@ -52,32 +52,50 @@ pp:
 pp:
 
 
-## 3. Sentiment Analysis
+## 3. Review Analysis
 
 
-We have talked quite a lot about data characteristics, so it is reasonalble to walk into the field of sentiments. We want to see how people feel about movies on Amazon. 
-(Qin's findings)
+We have talked quite a lot about data characteristics, so it is reasonalble to walk into the field of moview reviews.
+#### Review Summary-Polarity
+We first compute the polarity of the review summery. Generally the review summary will not contains too much information about polarity (most of them get a polarity of 0)but since we are not able to do the review text due to its large size, we might as well take a look at the summary first. 
 
-pp:
-pp:
+######Will the polarity affect the helpfulness?
+/figs/helpful~polarity-general.pdf
+
+######Will the extreme polarity attract people to read?
+/figs/read~polarity-general.pdf
+
+######Polarity can be inaccurate
+Unfortunately, the built-in package for polarity computing is not accurate.
+/figs/polarity not accurate.pdf
+
+####Review Text-Words
+Here we want to explore whether the length of the text will add more value to itself
+
+###### The longer, the better?
+
+/figs/read~words-general.pdf
+It seems not’s the case.
+
+/figs/read~words.pdf
+
+As for the helpfulness, people tends to focus more on the brief reviews.
+/figs/helpful~words.pdf
+
 
 
 ## 4. Network Analysis
 
-Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. Thus, we applied a network analysis to the top 100 active reviewer in Amazon.
-
-| user   | 100|
-| related movies | 90,000 |
-
-- Nodes: User
-- Nodes size: number of reviews wrote 
-- Links: Commented on the same movie
-- Links width: number of same movie commented 
-
-
 http://gifmaker.me/PlayVideoAnimation.php?folder=20160412196MMVIKjpkaeHBrRW8dpt96&file=output_mNJLhB.mp4
 
+Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. As the dataset is very hugh, we give up the idea of making a graph of all users. But rather, we would produce the graph on the top (x%?) users. (describe the graph and then talk about the findings and meanings.)
 
 
 
+
+Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+
+
+
+Please see each subfolder for a README file.
 
