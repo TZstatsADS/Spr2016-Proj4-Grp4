@@ -65,6 +65,8 @@ pp:
 ## 4. Network Analysis
 
 
+![http://gifmaker.me/PlayVideoAnimation.php?folder=20160412196MMVIKjpkaeHBrRW8dpt96&file=output_mNJLhB.mp4](evol)
+
 Social newworks are everywhere. We not only have social networks in the real world, but also in the virtual one. Sometimes we do not even know there might be a network between ourselves and someone who is living thousands of miles away. In order to quantify the closeness between users, we draw a line between two users if they comment on the same movie. As the dataset is very hugh, we give up the idea of making a graph of all users. But rather, we would produce the graph on the top (x%?) users. (describe the graph and then talk about the findings and meanings.)
 
 
