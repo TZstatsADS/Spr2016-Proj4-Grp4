@@ -1,6 +1,6 @@
 movies.raw=read.csv("../output/moviescsv.csv")
 product.deg=table(movies.raw$product_productid)
-
+#1
 library(dplyr)
 
 movies.sel=movies.raw
